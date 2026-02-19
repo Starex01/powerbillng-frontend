@@ -1,0 +1,10 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+body {
+  background-color: white;
+  color: #1e3a8a; /* blue-900 */
+}

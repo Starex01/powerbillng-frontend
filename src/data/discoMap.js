@@ -1,0 +1,51 @@
+export const DISCO_MAP = {
+  "04": {
+    name: "Eko Electricity Distribution Company",
+    shortName: "EKEDC",
+    phone: "07080601000",
+    email: "customerservice@ekedp.com",
+    website: "www.ekedp.com",
+  },
+  "54": {
+    name: "Port Harcourt Electricity Distribution Company",
+    shortName: "PHEDC",
+    phone: "08039003000",
+    email: "info@phed.com.ng",
+    website: "www.phed.com.ng",
+  },
+  "37": {
+    name: "Kaduna Electricity Distribution Company",
+    shortName: "KAEDCO",
+    phone: "07039003000",
+    email: "customercare@kaedco.com.ng",
+    website: "www.kaedco.com.ng",
+  },
+  "62": {
+    name: "Ikeja Electricity Distribution Company",
+    shortName: "IKEDC",
+    phone: "07000453233",
+    email: "info@ikejaelectric.com",
+    website: "www.ikejaelectric.com",
+  },
+  "81": {
+    name: "Enugu Electricity Distribution Company",
+    shortName: "EEDC",
+    phone: "08039003700",
+    email: "customercare@enugudisco.com",
+    website: "www.enugudisco.com",
+  },
+  "47": {
+    name: "Abuja Electricity Distribution Company",
+    shortName: "AEDC",
+    phone: "08039003322",
+    email: "info@abujaelectricity.com",
+    website: "www.abujaelectricity.com",
+  },
+  "25": {
+    name: "Ibadan Electricity Distribution Company",
+    shortName: "IBEDC",
+    phone: "08039003800",
+    email: "customercare@ibedc.com",
+    website: "www.ibedc.com",
+  },
+};
