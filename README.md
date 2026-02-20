@@ -30,7 +30,3 @@ It allows users to:
 - html2canvas
 - jsPDF
 
----
-
-## 📂 Project Structure
-

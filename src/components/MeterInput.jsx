@@ -7,6 +7,17 @@ export default function MeterInput() {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
+   // Demo numbers
+  const demoMeters = [
+    "04252836791",
+    "54123876209",
+    "37891024563",
+    "62045198237",
+    "81234567890",
+    "47003819254",
+    "25672910483",
+  ];
+
   const handleSubmit = () => {
     if (!meterNumber) {
       alert("Please enter a meter number");
@@ -66,6 +77,28 @@ export default function MeterInput() {
           Generate Receipt
         </button>
       </motion.div>
+
+      <div className="mt-8 bg-gray-100 p-6 rounded-2xl border border-gray-200">
+        <h3 className="font-semibold text-lg mb-4">
+          ⚡ Demo Meter Numbers (click to try):
+        </h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          {/* Maps through the Demo numbers */}
+          {demoMeters.map((number) => (
+            <button
+              key={number}
+              onClick={() => setMeterNumber(number)}
+              className="bg-white border border-gray-300 rounded-lg px-4 py-2 text-sm hover:bg-gray-50 transition"
+            >
+              {number}
+            </button>
+          ))}
+        </div>
+
+        <p className="text-sm text-gray-500 mt-4">
+          Demo data shown when live API is not configured.
+        </p>
+      </div>
     </div>
   );
 }
